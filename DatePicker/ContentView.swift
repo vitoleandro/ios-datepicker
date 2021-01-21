@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var initialDate = Date()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Spacer()
+            Text("DatePicker inline").bold()
+            DatePicker("DatePicker inline", selection: $initialDate, displayedComponents: .date)
+            Spacer()
+            Text("DatePicker Graphical").bold()
+            DatePicker("2 - Example DatePicker", selection: $initialDate).datePickerStyle(GraphicalDatePickerStyle())
+            Spacer()
+        }
     }
 }
 
