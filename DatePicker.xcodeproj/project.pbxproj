@@ -11,6 +11,7 @@
 		EE667E7C25B9F91600858F0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE667E7B25B9F91600858F0E /* ContentView.swift */; };
 		EE667E7E25B9F91700858F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE667E7D25B9F91700858F0E /* Assets.xcassets */; };
 		EE667E8125B9F91700858F0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE667E8025B9F91700858F0E /* Preview Assets.xcassets */; };
+		EE667E8E25B9FCE500858F0E /* DatePickerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE667E8D25B9FCE500858F0E /* DatePickerComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EE667E7D25B9F91700858F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE667E8025B9F91700858F0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE667E8225B9F91700858F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE667E8D25B9FCE500858F0E /* DatePickerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		EE667E7825B9F91600858F0E /* DatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				EE667E8925B9FC3B00858F0E /* components */,
 				EE667E7925B9F91600858F0E /* DatePickerApp.swift */,
 				EE667E7B25B9F91600858F0E /* ContentView.swift */,
 				EE667E7D25B9F91700858F0E /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				EE667E8025B9F91700858F0E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE667E8925B9FC3B00858F0E /* components */ = {
+			isa = PBXGroup;
+			children = (
+				EE667E8D25B9FCE500858F0E /* DatePickerComponent.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				EE667E7C25B9F91600858F0E /* ContentView.swift in Sources */,
 				EE667E7A25B9F91600858F0E /* DatePickerApp.swift in Sources */,
+				EE667E8E25B9FCE500858F0E /* DatePickerComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
