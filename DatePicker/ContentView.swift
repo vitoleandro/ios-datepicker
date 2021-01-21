@@ -13,6 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            Text("\(initialDate)")
             Spacer()
             Text("DatePicker inline").bold()
             DatePicker("DatePicker inline", selection: $initialDate, displayedComponents: .date)
